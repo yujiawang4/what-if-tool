@@ -30,7 +30,7 @@ if '--project_name' in sys.argv:
   sys.argv.pop(project_name_idx)
 
 _TF_REQ = [
-    'tensorflow>=1.12.1',
+    'tensorflow==2.0.0',
 ]
 
 REQUIRED_PACKAGES = [
